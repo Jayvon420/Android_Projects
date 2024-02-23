@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyLinearLayout">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Linear Layout No Weight"
+    android:id="@+id/tvDisplay"
+    android:layout_gravity="center_horizontal" />
+<!--    Other TextView Used -->
+    <TextView
+        android:id="@+id/tvHello"
+        android:text="Hello"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#673Ab7" />
+    <TextView
+        android:id="@+id/tvWorld"
+        android:text="World"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B" />
+    <TextView
+        android:id="@+id/tvUniverse"
+        android:text="Universe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4" />
+
+    <TextView
+        android:id="@+id/tvMyName"
+        android:text="Jayvon Dela Rosa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722" />
+
+
+
+</LinearLayout>
